@@ -1,10 +1,15 @@
-## Portfolio
+<!-- ## Portfolio -->
+## About Me
 
-
-[CV](/pdf/Dyava.pdf)
+[CV](/pdf/CV.pdf)
 ---
-
-### Projects
+## Surgical/Medical Robot Research
+- [Project 1 Title](http://example.com/)
+- [ML: Prediction of medication dosage and pillsin for patient  based on the medical test results ](http://example.com/)
+- [Percutaneous Coronary Intervention Research and Vibrotactile feedback for Robotic Catheter insersion ](pdf/Dyava_PCI_presentation.pdf)
+- [Project 2 Title](http://example.com/)
+---
+### Research
 
 [Direct physical human-robot Interfaction using Tactile Feedback](/pdf/Dyava.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
