@@ -1,4 +1,4 @@
-title: Rama Krishna Reddy Dyava1 # your name (or website title) here
+title: Rama Krishna Reddy Dyava2 # your name (or website title) here
 email:
 logo: "/images/DSC00072.JPG?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
@@ -10,4 +10,5 @@ description: > # your text below (remove <br> elements if you don't need line br
 
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
-minimal_mistakes_skin: dark
+search: true
+search_full_content: true
