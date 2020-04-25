@@ -4,10 +4,10 @@
 [CV](/pdf/CV.pdf)
 ---
 ## Surgical/Medical Robot Research
-- [Project 1 Title](http://example.com/)
-- [ML: Prediction of medication dosage and pillsin for patient  based on the medical test results ](http://example.com/)
+#[Project 1 Title](docs/posts)
+- [ML: Prediction of medication dosage and pills for patient  based on the medical test results ](http://example.com/)
 - [Percutaneous Coronary Intervention Research and Vibrotactile feedback for Robotic Catheter insersion ](pdf/Dyava_PCI_presentation.pdf)
-- [Project 2 Title](http://example.com/)
+#[Project 2 Title](http://example.com/)
 ---
 ### Research
 
