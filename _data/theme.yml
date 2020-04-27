@@ -1,5 +1,5 @@
 # Theme Skin
-skin: default # default, night, plum, sea, soft, steel
+skin: soft # default, night, plum, sea, soft, steel
 
 # Theme Text
 t:
@@ -12,7 +12,7 @@ t:
   site_search: "Site Search"
   results_found: "Result(s) found"
   search_placeholder_text: "Enter your search term..."
-  home: "Home2"
+  home: "Home"
   newer: "Newer"
   older: "Older"
   email: "Email"
