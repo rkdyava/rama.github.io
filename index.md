@@ -4,10 +4,10 @@
 [CV](/pdf/CV.pdf)
 ---
 ## Surgical/Medical Robot Research
-# [Project 1 Title](docs/posts.md)
+### [Siasun 7DOFmanipulatros motion planning](docs/posts.md)
 - [ML: Prediction of medication dosage and pills for patient  based on the medical test results ](http://example.com/)
 - [Percutaneous Coronary Intervention Research and Vibrotactile feedback for Robotic Catheter insersion ](pdf/Dyava_PCI_presentation.pdf)
-# [Project 2 Title](http://example.com/)
+### [Project 2 Title](http://example.com/)
 ---
 ### Research
 

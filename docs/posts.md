@@ -1,6 +1,6 @@
 ---
-title: Post Archive
-layout: posts
-permalink: /posts/
+title: Overview
+layout: page
+permalink: /page/
 entries_layout: list
 ---
