@@ -1,8 +1,8 @@
 <!-- ## Portfolio -->
 ## About Me
 
-###### [CV](/pdf/CV.pdf)
-###### [Interests](/pdf/BACKGROUND EXPERIENCE ON ROBOTICS RESEARCH.pdf)
+### [CV](/pdf/CV.pdf)
+### [Interests](/pdf/BACKGROUND EXPERIENCE ON ROBOTICS RESEARCH.pdf)
 ---
 ## Surgical/Medical Robot Research
 ### [Siasun 7DOFmanipulatros motion planning](docs/posts.md)
