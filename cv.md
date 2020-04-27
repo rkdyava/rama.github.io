@@ -7,4 +7,4 @@ actions:
     url: "#pdf-asset"
 ---
 
-- [add something](/pdf/CV.pdf)
+- [cv pdf](/pdf/CV.pdf)
