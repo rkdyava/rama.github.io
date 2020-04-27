@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "Research Areas"
 layout: page
 ---
 ## Introduction to Experimental Research
@@ -12,35 +12,28 @@ I would like to discuss my major research interests and experience. Firstly, I d
 wearable haptics device).1 Later I moved to the Technical University of Munich for Master's thesis and the internship on Haptics feedback in direct physical human-robot interaction. Also, I took the course of "Introduction of Surgical Robotics". I worked in German Aerospace Centre (DLR) at Robotics and Mechatronics Department on Performance
 of the Surgical robotics ( MIRO robot). Currently, I am working at [SS innovations,China] ( http://www.ssinnovations.org/ ) as Mechatronics on Medical robots like teleoperated and single arm medical arm application.
 
-Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as a substitute for the default --- [Minima](https://github.com/jekyll/minima). Conventions and features found there are fully supported by **Basically Basic**, with a few enhancements thrown in for good measure:
 
-- Clean responsive design with [six customizable skins](#skin)
-- Curriculum Vitæ/Resume layout powered by [JSON data](http://registry.jsonresume.org/)
-- About page layout
-- Disqus Comments and Google Analytics support
-- SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
+## Experience with Surgical and Medical Robotics
 
-You can find the source code for this theme at: {% include icon-github.html username="mmistakes" %}/[jekyll-theme-basically-basic](https://github.com/mmistakes/jekyll-theme-basically-basic)
+My current work is motion planning of multi-arm Mantra teleoperated system and single-arm medical robotic application. For the multi-arm teleoperated system 1(a), I mostly deal with
+system actuators kinematics with individual motion and cooperative motion, and joint links specications for overall system in ACTIN software (It is specically developed for Mantra
+surgical robot). Especially, for single arms medical robots 1(b) such as automated robotic endoscope camera and robotic ultrasound probe I do motion planning with ROS and Panda Franka software. Also, my major research is going on automated endoscope camera manipulation while surgeon doing surgery in extending semi and fully automated ultrasound probe by using 7DOF manipulators.
 
+I have worked with the MIRO surgical robot which is a versatile system robot (DLR). MIRO aims at a compact, slim and lightweight robot arm as a versatile core component for various existing and future medical robotic procedures. With its low weight of 10 kg and dimensions similar to those of the human arm, the MIRO robot can assist the surgeon directly at the operating table without interference. Also, One or more MIRO robots are telemanipulated by the surgeon from a distant control interface for example in endoscopic
+surgery.
 
-Currently, I am working as a Mechatronics Engineering at SS innovations **(@medical robotics)**. I had done my graduation in Electrical and Electronic Engineering in the year 2013 from JNTUH university
-and post-graduation in Computer and Automation (specialization in Robotics) from University of Siena in the year 2017. In all the years of my work, research and study I tried to develop a good sense of research.
+I have worked on testing the MIRO performance of the manipulator and surgery devices. When robots are working with the patients, it is mandatory to know the errors and deviations for the medical robot for that I am working with evaluation on performance tests by
+calculating the deviations of the MIRO robot in terms of Pose Accuracy, Distance accuracy , Multi-directional accuracy, Exchangeable orientations accuracy, position overshoot and some other performance tests according to the ISO 9283.
 
-The passion towards to medical robotics was starting when I was working at DLR, there I was developing a software and conducting performance tests on existing system MIRO surgical robot. Since then I have been studying and doing research in this medical robotics field and also during my
-work at DLR I overcame many performance errors and develop software according to minimize the error at a different level of MIRO robot. Also, I had given some presentations at DLR and TUM on percutaneous coronary intervention robotic surgery procedure and minimal invasive surgical robotic
-system and a lot of case study on PCI disease and surgical procedure.
-
-I had done my Master's thesis in direct human-robot interaction with the haptic device, this was added to medical robots' research.
-After, I gain medical robots knowledge I was doing self-research on many existing medical robots like
-- DaVinci
--  FreeHand
--  Leoni . . .
-
-After, getting into SS innovations (my current job employer) I have been doing a lot of research on motion planning of the minimal invasive surgical robot (Mantra) and also I am leading the person to develop single arm robotic application such as robotic endoscope camera and ultrasound robotic
-probe holder. I have been doing many motion planning for single arm medical application with ROS and Franka robotic arms.
-I was very interested in developing new methods of single arm medical robot with the advanced technology. I had done motion planning for single arm medical robotic application on "Franka Emika" manipulator arm at SS innovations and constantly working out to build effective commercial medical
-robots like endoscope robotic camera and ultrasound robotic probe scanner.
-In this process, I have traveled and attended many national and international conferences on medical robotics, one which is 79th China International Medical Equipment Fair (CMEF Spring) at Shanghai, China.
-
-I would like to write a paper on some of my research results in future. I regularly watch and read many research articles on medical robotics and always keep me update on this field.
-I have a sound knowledge of the advanced technologies and software that are most importantly needed in Medical Robotics. I gained excellent skills in 6/7DOF manipulator kinematics and dynamics for a different kind of application.
+## Human motion guidance using vibrotactile feedback in direct physical human-robot physical interaction
+In physical human-robot interaction (pHRI) tasks such as cooperative object manipulation,
+the robot traditionally adapts its motion to a desired trajectory imposed by the human
+partner. However, certain areas in the workspace of the human-robot team can be unfeasible
+(inadmissible). I am using wearable vibrotactile haptics wristband, which is suitable feedback
+can be conveyed to the human partner, enhancing the human-robot interaction
+### Problem Statement:
+In this research work the physical human-robot team (pHRT) carries an object from the
+initial to target position. Figure. 3 shows the cooperatively manipulation of the object
+between the human and robot, which leads towards the target position. Importantly, In our
+work the pHRTI moves the object along a trajectory the following problems have to solve
+for achieving the feasible path for HRT.
