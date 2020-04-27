@@ -1,5 +1,6 @@
 <!-- ## Portfolio -->
 <img src="images/DSC00072.JPG?raw=true"/>
+---
 ## About Me
 
 ### [CV](/pdf/CV.pdf)
