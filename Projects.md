@@ -1,5 +1,5 @@
 ---
-title: "Research Areas"
+title: "Projects"
 layout: page
 ---
 ## Introduction to Experimental Research
