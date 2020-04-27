@@ -1,7 +1,16 @@
 ---
-title: "RESEARCH"
+title: "Research"
 layout: page
 ---
+## Introduction to Experimental Research
+
+I would like to discuss my major research interests and experience. Firstly, I did my internship in Sensors and Microsystems (2015-2016) where I have gain lot of knowledge on
+- robotics
+- sensors: force, strain, Chemical, Temperature sensors and at the same time, I worked with the electronic front-end circuits and electronic design software. Later I have moved to the robotics platform which makes me excited into thiseld and soon I had very good command of robotics like Human-Centered Robotics and Haptics.
+
+ Certainly, I had joined in the University of Siena laboratory for doing the project on human-robot interaction methods, also there I have worked in Hapticseld (Rendering and Fingertip
+wearable haptics device).1 Later I moved to the Technical University of Munich for Master's thesis and the internship on Haptics feedback in direct physical human-robot interaction. Also, I took the course of "Introduction of Surgical Robotics". I worked in German Aerospace Centre (DLR) at Robotics and Mechatronics Department on Performance
+of the Surgical robotics ( MIRO robot). Currently, I am working at [SS innovations,China] ( http://www.ssinnovations.org/ ) as Mechatronics on Medical robots like teleoperated and single arm medical arm application.
 
 Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as a substitute for the default --- [Minima](https://github.com/jekyll/minima). Conventions and features found there are fully supported by **Basically Basic**, with a few enhancements thrown in for good measure:
 
