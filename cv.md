@@ -2,9 +2,9 @@
 title: Curriculum Vitæ
 layout: cv
 actions:
-  - label: "Download as PDF"(/pdf/CV.pdf)
+  - label: "Download as PDF"
     icon: pdf
     url: "#pdf-asset"
 ---
 
-add something
+- [add something](/pdf/CV.pdf)
