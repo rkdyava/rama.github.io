@@ -11,7 +11,7 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 #####  [*Link here for Siasun 7DOF Motion Planning Video*](https://www.youtube.com/watch?v=ZAeLUoNyjy4&list=PLhz2kQ7e3CxE8vfuvlm1JlOEaV5DrDM6x&index=4&t=0s)
 ---
-## Name
+## Name1
 - [ML: Prediction of medication dosage and pills for patient  based on the medical test results ](https://www.youtube.com/watch?v=ZAeLUoNyjy4&list=PLhz2kQ7e3CxE8vfuvlm1JlOEaV5DrDM6x&index=4&t=0s)
 - [Percutaneous Coronary Intervention Research and Vibrotactile feedback for Robotic Catheter insersion ](pdf/Dyava_PCI_presentation.pdf)
 ### [Project 2 Title](http://example.com/)
