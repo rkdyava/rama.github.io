@@ -853,6 +853,7 @@ a#scrollUp:hover {
 .service-img {
     position: relative;
     overflow: hidden;
+    border-top-left-radius: 50px;
 }
 .service-img img {
     width: 100%;
@@ -885,6 +886,7 @@ a#scrollUp:hover {
 .service-content {
     padding: 30px 10px;
     background: #fff;
+    border-bottom-right-radius: 50px;
 }
 .service-content h4 {
     margin-bottom: 20px;
