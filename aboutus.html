@@ -23,7 +23,7 @@
     <!-- magnific-popup.css -->
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <!-- slicknav.min.css -->
-    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/slicknav.min.css"> -->
     <!-- slicknav.min.css -->
     <link rel="stylesheet" href="assets/css/slick.css">
     <!-- style css -->
@@ -62,13 +62,17 @@ body, .bg-1, .brand-area2{
     <header class="header-area bg-1" id="sticky-header">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-9 col-sm-8 col-6">
+                <div class="col-lg-3 col-md-9 col-sm-8 col-12">
                     <div class="logo">
                         <img src="assets/images/logo-main.png" alt="MEDYANTRONICS logo">
                     </div>
                 </div>
-                <div class="col-lg-9 d-none d-lg-block">
+                <div class="col-lg-9 d-none11 d-lg-block">
                     <div class="mainmenu">
+                        <a class="toggle-mobile-btn" href="javascript: void(0);">
+                        <span></span>
+                    </a>
+                <nav class="navigation mob-toggl">
                         <ul id="navigation">
                             <li><a href="index.html">Home </a></li>
                             <li class="active"><a href="aboutus.html">About Us </a></li>
@@ -83,9 +87,9 @@ body, .bg-1, .brand-area2{
                                     <li><a href="products07.html">Research</a></li>
                                 </ul>
                             </li>
-                            <li><a href="team.html">Team <i class="fa fa-angle-down"></i> </a>
+                            <li><a href="javascript:void(0);">Team <i class="fa fa-angle-down"></i> </a>
                                 <ul>
-                                    <li><a href="advisoryboard.html">Advisory Board</a></li>
+                                    <li><a href="team.html">Advisory Board</a></li>
                                 </ul>
                             </li>
                             <li><a href="service.html">Services </a></li>
@@ -96,12 +100,10 @@ body, .bg-1, .brand-area2{
                                 </ul>
                             </li>
                         </ul>
+                    </nav>
                     </div>
                 </div>
                 
-                <div class="col-md-1 col-sm-1 col-2 d-lg-none d-sm-block">
-                    <div class="responsive-menu-wrap floatright"></div>
-                </div>
             </div>
         </div>
     </header>
@@ -209,8 +211,8 @@ body, .bg-1, .brand-area2{
                         <div class="footer-widget footer-contact">
                             <h4 class="widget-title">GET IN TOUCH</h4>
                             <ul>
-                                <li><i class="fa fa-home"></i> 12345, Irvine</li>
-                                <li><i class="fa fa-phone"></i> +012 345 678</li>
+                                <li><i class="fa fa-home"></i> VISAKHAPATNAM, ANDHRA PRADESH</li>
+                                <li><i class="fa fa-phone"></i> +91 7993638918</li>
                                 <li><i class="fa fa-fax"></i> support@medyantronics.com</li>
                                 <li><i class="fa fa-envelope"></i> support@medyantronics.com</li>
                             </ul>
@@ -242,13 +244,28 @@ body, .bg-1, .brand-area2{
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <p>&copy; Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved by Medyantronics.</p>
+                        <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved by Medyantronics.</p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script type="text/javascript">
+$(document).ready(function() {
+    $(".toggle-mobile-btn").click(function(){
+        if($(this).hasClass("open")){
+            $(this).removeClass("open");
+            $(".navigation").addClass("mob-toggl");
+        }else{
+            $(this).addClass("open");
+            $(".search-input").fadeOut();
+            $(".navigation").removeClass("mob-toggl");
+        }
+    });
+
+});    
+</script>
     <!-- footer-area start -->
     <!-- jquery latest version -->
     <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>

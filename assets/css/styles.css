@@ -98,6 +98,45 @@ div {
 }
 
 /*================CUSTOM CSS===================*/
+
+/* Toggle Menu CSS */
+.toggle-mobile-btn {display: none;line-height: 25px; width: 28px; transition: 0.3s;position: absolute;
+    right: 15px;
+    top: -40px;}
+.toggle-mobile-btn span:after,
+.toggle-mobile-btn span:before {content: ""; position: absolute; left: 0; top: -9px;}
+.toggle-mobile-btn span:after{top: 9px;}
+.toggle-mobile-btn span {position: relative; display: inline-block;}
+.toggle-mobile-btn span,
+.toggle-mobile-btn span:after,
+.toggle-mobile-btn span:before {width: 100%; height: 5px; background-color: #888; transition: all 0.3s; backface-visibility: hidden;border-radius: 2px;}
+.toggle-mobile-btn.open span {background-color: transparent;}
+.toggle-mobile-btn.open span:before {transform: rotate(45deg) translate(5px, 5px);}
+.toggle-mobile-btn.open span:after {transform: rotate(-45deg) translate(7px, -8px);}
+
+@media only screen and (max-width: 768px){
+    .mob-toggl{display: none}
+    .toggle-mobile-btn {display: block;}
+    .logo{float: none; display: inline-block;}
+    .header{text-align: center; position: relative;}
+    .navigation{text-align: left; width: 300px; margin: 0; transition: 0.3s; position: absolute; top: 25px; right: 15px; 
+    box-shadow: 0px 0px 8px 3px #0000006e; background-color: #262533;z-index: 9999;}
+    .navigation ul{float: left;
+    display: contents !important;}
+    .fixed-header .navigation{top: 60px; transition: 0.3s;}
+    .navigation li{margin: 0; width: 100%;}
+    .navigation li a,
+    .fixed-header .navigation li a{padding: 0 20px; width: 100%; line-height: 40px;}
+    .navigation li.sub-menu > a:after{right: 10px; top: 22px;}
+    .navigation li.sub-menu ul{position: relative; width: 100%; border: 0;}
+    .navigation li.sub-menu li a{padding: 6px 30px; font-size: 13px;}
+    .mainmenu ul li{margin-left: 0px !important;}
+    .mainmenu ul li>ul{display: block !important;}
+    .project-wrap{width: 70% !important; margin: 0px auto 30px !important;}
+    .project-area{padding: 40px 0px 10px !important;}
+}
+/* Toggle Menu CSS End */
+
 .bg-blue{background-color: #0098fd !important}
 
 
@@ -171,7 +210,7 @@ a#scrollUp:hover {
             justify-content: flex-end;
 }
 .minH120{min-height: 120px}.minH155{min-height: 155px}
-.alignset{margin-bottom: 10px;}.alignset li .fa{padding-right: 10px; margin-top: 6px; color: #0177c7;}
+.alignset{margin-bottom: 10px;font-size: 15px;}.alignset li .fa{padding-right: 10px; margin-top: 6px; color: #0177c7;}
 .alignset li{display: flex;font-size: 15px;}
 .mainmenu ul li {
     margin-left: 15px;
@@ -733,7 +772,7 @@ a#scrollUp:hover {
 
 /*--------project-area start---------*/
 .project-area {
-    padding: 120px 0px 90px;
+    padding: 50px 0px 50px;
 }
 .project-menu button {
     border: 1px solid #cee002;
@@ -744,7 +783,7 @@ a#scrollUp:hover {
     cursor: pointer;
 }
 .project-menu button.active {
-    background: #cee002;
+    background: #0089ec;
 }
 .project-wrap {
     position: relative;
@@ -759,7 +798,7 @@ a#scrollUp:hover {
     top: 0;
     width: 100%;
     height: 100%;
-    background: #cee002;
+    background: #153d65;
     opacity: .55;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=55)";
     content: "";
@@ -884,7 +923,7 @@ a#scrollUp:hover {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 .service-content {
-    padding: 30px 10px;
+    padding: 30px 20px;
     background: #fff;
     border-bottom-right-radius: 50px;
 }
